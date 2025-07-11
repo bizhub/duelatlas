@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Jobs\ProcessGameAction;
 use Illuminate\Http\Request;
 
-class DuelController extends Controller
+class DuelController
 {
     public function __invoke(Request $request)
     {
